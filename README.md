@@ -9,3 +9,4 @@
   * Deploy service
   * Scale service
   * Rolling update
+  Update
