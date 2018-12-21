@@ -31,6 +31,6 @@ $kubectl rollout status deployment/service1
 
 ## Remove all
 ```
-$kubectl create -f service1-deployment.yml
-$kubectl create -f service1-service.yml
+$kubectl delete -f service1-deployment.yml
+$kubectl delete -f service1-service.yml
 ```
