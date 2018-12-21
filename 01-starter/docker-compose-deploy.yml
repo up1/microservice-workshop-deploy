@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  service1:
+    image: somkiat/service1
+    ports:
+      - "3001:3000"
+
+  service2:
+    image: somkiat/service2
+    ports:
+      - "3002:3000"
+
+  service3:
+    image: somkiat/service3
+    ports:
+      - "3003:3000"
+      
