@@ -43,6 +43,7 @@ $docker-compose build
 ```
 Build all services
 $docker-compose up -d
+$docker-compose -f docker-compose.yml up -d
 
 See all containers
 $docker-compose ps
