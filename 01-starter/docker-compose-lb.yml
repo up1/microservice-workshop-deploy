@@ -1,0 +1,18 @@
+version: '3.7'
+services:
+  loadbalance:
+    image: somkiat/lb
+    build:
+      context: ./loadbalance
+    ports:
+      - "80:80"
+
+  service1:
+    image: somkiat/service2
+
+  service2:
+    image: somkiat/service2
+
+  service3:
+    image: somkiat/service3
+      

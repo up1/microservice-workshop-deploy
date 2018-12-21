@@ -57,3 +57,9 @@ $docker-compose down
 ```
 $docker-compose up --scale service2=3
 ```
+
+Try to scale service1 with Load balance (nginx)
+
+```
+$docker-compose -f docker-compose-lb.yml up --scale service1=3
+```
