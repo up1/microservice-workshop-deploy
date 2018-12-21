@@ -50,3 +50,9 @@ $docker-compose ps
 Delete all containers
 $docker-compose down
 ```
+
+## 4. Scaling services with docker-compose
+
+```
+$docker-compose up --scale service2=3
+```
