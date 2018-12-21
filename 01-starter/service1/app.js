@@ -12,7 +12,7 @@ const app = express();
 app.get('/', (req, res) => {
   request({
     method: 'GET',
-    uri: 'http://service2:3000',
+    uri: 'http://service1:3000',
     json: true
   })
     .then((body) => res.json(body))
